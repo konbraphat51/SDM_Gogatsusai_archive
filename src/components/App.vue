@@ -2,8 +2,6 @@
 	<div id="app">
 		<Header />
 
-		<LanguageSelection />
-
 		<!-- view page shown here -->
 		<router-view />
 	</div>
