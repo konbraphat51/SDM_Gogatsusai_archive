@@ -6,7 +6,7 @@ const router = VueRouter.createRouter({
 			path: "/",
 			name: "TopPage",
 			component: Vue.defineAsyncComponent(() =>
-				loadModule("src/components/Pages/TopPage.vue", options),
+				loadModule("src/components/Pages/TopPage/TopPage.vue", options),
 			), //default page
 		},
 	],
