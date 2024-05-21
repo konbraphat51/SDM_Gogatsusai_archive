@@ -8,7 +8,8 @@ const router = VueRouter.createRouter({
 			component: Vue.defineAsyncComponent(() =>
 				loadModule("src/components/Pages/TopPage/TopPage.vue", options),
 			), //default page
-
+		},
+		{
 			path: "/car2022",
 			name: "Car2022",
 			component: Vue.defineAsyncComponent(() =>
