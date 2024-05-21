@@ -1,5 +1,6 @@
 <template>
 	<div id="Header">
+		<button @click="$router.push('/')">Home</button>
 		<LanguageSelection />
 	</div>
 </template>
