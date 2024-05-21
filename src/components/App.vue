@@ -1,5 +1,7 @@
 <template>
 	<div id="app">
+		<Header />
+
 		<LanguageSelection />
 
 		<!-- view page shown here -->
@@ -11,8 +13,8 @@
 export default Vue.defineComponent({
 	name: "App",
 	components: {
-		LanguageSelection: Vue.defineAsyncComponent(() =>
-			loadModule("src/components/LanguageSelection.vue", options),
+		Header: Vue.defineAsyncComponent(() =>
+			loadModule("src/components/Header.vue", options),
 		),
 	},
 	setup() {
